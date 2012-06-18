@@ -1,0 +1,36 @@
+filetype plugin indent on
+set encoding=utf-8
+set guifont=Consolas:h14
+set shiftwidth=2
+set sts=2
+set tabstop=2
+set expandtab
+set nu
+set hlsearch
+set ignorecase
+set smartcase
+set ruler
+set background=dark
+syntax on
+
+"start pathogen
+call pathogen#infect()
+
+"to make sure the ctags working correctly
+let Tlist_Ctags_Cmd = "/usr/local/bin/ctags"
+
+colorscheme solarized
+
+"ruby
+autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+"improve autocomplete menu color
+highlight Pmenu ctermbg=238 gui=bold
+
+"fuzzy finder
+let mapleader = "\\"
+map <leader>F :FufFile<CR>
+map <leader>f :FufTaggedFile<CR>
+map <leader>s :FufTag<CR>
