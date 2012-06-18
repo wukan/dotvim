@@ -1,3 +1,7 @@
+"start pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 filetype plugin indent on
 set encoding=utf-8
 set guifont=Consolas:h14
@@ -12,9 +16,6 @@ set smartcase
 set ruler
 set background=dark
 syntax on
-
-"start pathogen
-call pathogen#infect()
 
 "to make sure the ctags working correctly
 let Tlist_Ctags_Cmd = "/usr/local/bin/ctags"
