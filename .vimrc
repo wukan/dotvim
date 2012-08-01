@@ -35,3 +35,7 @@ let mapleader = "\\"
 map <leader>F :FufFile<CR>
 map <leader>f :FufTaggedFile<CR>
 map <leader>s :FufTag<CR>
+
+"Trailing extra whitespace
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:match ExtraWhitespace /\s\+$/
