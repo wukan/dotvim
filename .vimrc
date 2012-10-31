@@ -39,3 +39,4 @@ map <leader>s :FufTag<CR>
 "Trailing extra whitespace
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
+runtime! macros/matchit.vim
