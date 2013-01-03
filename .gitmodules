@@ -31,3 +31,6 @@
 [submodule "bundle/vim-backbone"]
 	path = bundle/vim-backbone
 	url = git://github.com/mklabs/vim-backbone.git
+[submodule "bundle/vim-jst"]
+	path = bundle/vim-jst
+	url = git://github.com/briancollins/vim-jst.git

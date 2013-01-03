@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/wukan/src/Zeen/spec/mailers'
+let g:netrw_dirhist_2='/private/var/backends/solr-3.4.0/users/conf/xslt'
+let g:netrw_dirhist_3='/Users/wukan/src/Zeen/app/services'
+let g:netrw_dirhist_4='/Users/wukan/src/platform/src/search/solr-3.4.0/zeen/conf/issues'
+let g:netrw_dirhist_5='/Users/wukan/src/Zeen/app/views/magazines'
+let g:netrw_dirhist_6='/Users/wukan/src/Zeen/lib/zeen'
+let g:netrw_dirhist_7='/Users/wukan/src/Zeen/app/assets/javascripts/mixins'
+let g:netrw_dirhist_8='/Users/wukan/src/Zeen/app/models'
+let g:netrw_dirhist_9='/Users/wukan/src/cross-country/mysite/mysite'
