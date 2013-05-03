@@ -32,11 +32,13 @@ highlight Pmenu ctermbg=238 gui=bold
 
 "fuzzy finder
 let mapleader = "\\"
-map <leader>F :FufFile<CR>
-map <leader>f :FufTaggedFile<CR>
-map <leader>s :FufTag<CR>
+map <leader>f :FufCoverageFile<CR>
 
 "Trailing extra whitespace
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
 runtime! macros/matchit.vim
+
+"Highlight the chars more than 80
+"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+"match OverLength /\%81v.\+/
