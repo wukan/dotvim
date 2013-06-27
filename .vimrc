@@ -32,7 +32,8 @@ highlight Pmenu ctermbg=238 gui=bold
 
 "fuzzy finder
 let mapleader = "\\"
-map <leader>f :FufCoverageFile<CR>
+map <leader>f :FufFile<CR>
+map <leader>c :FufCoverageFile<CR>
 map <leader>n :NERDTree<CR>
 
 "Trailing extra whitespace
