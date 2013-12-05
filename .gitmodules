@@ -49,3 +49,6 @@
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = git@github.com:vim-scripts/nginx.vim.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git@github.com:majutsushi/tagbar.git
