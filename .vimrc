@@ -34,12 +34,19 @@ highlight Pmenu ctermbg=238 gui=bold
 let mapleader = "\\"
 map <leader>f :FufFile<CR>
 map <leader>c :FufCoverageFile<CR>
-map <leader>n :NERDTree<CR>
+map <leader>n :NERDTreeToggle<CR>
 
 "Trailing extra whitespace
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
 runtime! macros/matchit.vim
+
+" jsctags PATH
+let g:tagbar_type_javascript = {
+  \ 'ctagsbin' : '/Users/wukan/src/opensource/doctorjs/bin/jsctags.js'
+\ }
+" TagBar shortcut
+map <leader>t :TagbarToggle<CR>
 
 "Highlight the chars more than 80
 "highlight OverLength ctermbg=red ctermfg=white guibg=#592929
